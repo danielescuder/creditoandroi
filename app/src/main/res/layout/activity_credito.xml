@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CreditoActivity">
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Estudio Credito" />
+
+    <TextView
+        android:id="@+id/tvcodigoCredito"
+        android:layout_width="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="Codigo Credito" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvIdentificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:hint="identificacion" />
+
+        <Button
+            android:id="@+id/btBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:text="buscar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvusuario"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="nombre" />
+
+        <TextView
+            android:id="@+id/tvprofesion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:hint="Profesion" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvsalario"
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="salario"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tvingresoExtra"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:hint="ingreso Extra" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvgastos"
+        android:layout_width="350dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="33dp"
+        android:hint="Gastos" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvvalorPrestamo"
+            android:layout_width="196dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="Valor prestamo"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btejecutar"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity=""
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:text="Ejecutar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btguardar"
+            android:layout_width="198dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="guardar"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/btconsultar"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="consultar"
+            android:textSize="23dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btanular"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="anular"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/btregrsar"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:textSize="23dp"
+            android:text="regresar" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btcancelar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:text="cancelar"
+        android:textSize="23dp" />
+</LinearLayout>
+
